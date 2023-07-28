@@ -1,0 +1,3 @@
+#Kütleçekim Sabiti G = 6,6743 * 10^(-11)
+#kütleçekim kuvvetini yoğunlukla hesaplamak daha hızlı olabilir
+
