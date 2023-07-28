@@ -20,7 +20,6 @@ func Run(list *[]*Object, time float32) {
 
 			if (*list)[e].isPhysical {
 				forceVal := CalculateGravityForce((*list)[e].Mass, (*list)[b].Mass, dist)
-
 				force_x := forceVal * FindCosElementOfForce(&(*list)[e].Location, &(*list)[b].Location)
 				force_y := forceVal * FindSinElementOfForce(&(*list)[e].Location, &(*list)[b].Location)
 				force := Vector2D{force_x, force_y}
